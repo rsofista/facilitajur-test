@@ -1,0 +1,21 @@
+GET http://localhost:3001/clients/list
+
+
+###
+
+
+POST http://localhost:3001/clients/create
+Content-Type: application/json
+
+{
+  "name": "Client 2",
+  "email": "client2@client.com",
+  "phone": "4994",
+  "posX": -28,
+  "posY": -55
+}
+
+###
+
+
+GET http://localhost:3001/clients/min-route-from-company
